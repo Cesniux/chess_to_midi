@@ -9,6 +9,7 @@
   "author": "Domantas Čėsna",
   "license": "ISC",
   "dependencies": {
-    "midi-writer-js": "^2.0.1"
+    "midi-writer-js": "^2.0.1",
+    "vexflow": "^3.0.9"
   }
 }
