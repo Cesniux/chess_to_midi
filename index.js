@@ -19,7 +19,7 @@ return {sequential: true};
 }
 );
 
-// Generate MIDI
+// Generate MIDI yeah
 var write = new MidiWriter.Writer([track]);
 
 // Generate a base64 representation of the MIDI file
