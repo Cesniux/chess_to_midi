@@ -30,4 +30,5 @@ var data = base64String.split("base64,").pop();
 
 const fs = require('fs');
 // Write the file
-fs.writeFileSync("C:/Cesniux/Codes/MyNodeApps/chess_to_midi/MIDI exports/zeldaTest2.mid", data, {encoding: 'base64'});
+//fs.writeFileSync("C:/Cesniux/Codes/MyNodeApps/chess_to_midi/MIDI exports/zeldaTest2.mid", data, {encoding: 'base64'});
+
