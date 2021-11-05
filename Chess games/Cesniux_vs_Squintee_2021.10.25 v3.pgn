@@ -1,0 +1,19 @@
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.10.25"]
+[Round "?"]
+[White "Cesniux"]
+[Black "Squintee"]
+[Result "0-1"]
+[ECO "C30"]
+[WhiteElo "956"]
+[BlackElo "1022"]
+[TimeControl "600"]
+[EndTime "7:57:58 PDT"]
+[Termination "Squintee won on time"]
+
+1. e4 e5 2. f4 f6 3. Nf3 c6 4. Bc4 d5 5. exd5 cxd5 6. Bb3 Nc6 7. d4 e4 8. Ne5
+Nxe5 9. fxe5 Ne7 10. exf6 gxf6 11. O-O f5 12. c4 Be6 13. Ba4+ Bd7 14. Qh5+ Ng6
+15. Bg5 Qb6 16. Bxd7+ Kxd7 17. b3 Qxd4+ 18. Kh1 Qxa1 19. Bf6 Qxf6 20. Rxf5 Qb6
+21. Rxd5+ Bd6 22. Qf5+ Kc7 23. c5 Bxc5 24. Rxc5+ Kb8 25. b4 Rf8 26. Qxf8+ Nxf8
+27. a3 Qd6 0-1

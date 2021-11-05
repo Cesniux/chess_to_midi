@@ -1,0 +1,20 @@
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.10.25"]
+[White "Cesniux"]
+[Black "pauliusvaskas"]
+[Result "1-0"]
+[ECO "D06"]
+[WhiteElo "767"]
+[BlackElo "727"]
+[TimeControl "300+2"]
+[EndTime "7:15:16 PDT"]
+[Termination "Cesniux won on time"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1. d4 {[%clk 0:05:02]} d5 {[%clk 0:05:02]} 2. c4 {[%clk 0:05:03]} Nf6 {[%clk 0:04:59]} 3. Nc3 {[%clk 0:05:00]} c6 {[%clk 0:04:57]} 4. c5 {[%clk 0:04:58]} b6 {[%clk 0:04:56]} 5. b4 {[%clk 0:04:57]} Bf5 {[%clk 0:04:41]} 6. Bf4 {[%clk 0:04:57]} e6 {[%clk 0:04:37]} 7. e3 {[%clk 0:04:46]} Nbd7 {[%clk 0:04:25]} 8. Ba6 {[%clk 0:04:31]} b5 {[%clk 0:04:04]} 9. Nf3 {[%clk 0:04:27]} Ne4 {[%clk 0:03:36]} 10. Nxe4 {[%clk 0:04:19]} Bxe4 {[%clk 0:03:32]}
+ 11. O-O {[%clk 0:04:16]} h6 {[%clk 0:03:13]} 12. Ne5 {[%clk 0:04:11]} Nb8 {[%clk 0:03:04]} 13. Bb7 {[%clk 0:04:08]} f6 {[%clk 0:02:40]} 14. Nxc6 {[%clk 0:03:32]} Nxc6 {[%clk 0:02:39]} 15. Bxc6+ {[%clk 0:03:33]} Kf7 {[%clk 0:02:19]} 16. Bxa8 {[%clk 0:03:19]} Qxa8 {[%clk 0:02:18]} 17. f3 {[%clk 0:03:20]} Bf5 {[%clk 0:02:08]} 18. Rc1 {[%clk 0:03:07]} Be7 {[%clk 0:02:03]} 19. a3 {[%clk 0:03:04]} Rc8 {[%clk 0:01:50]} 20. Re1 {[%clk 0:03:04]} g5 {[%clk 0:01:42]}
+ 21. Bg3 {[%clk 0:02:45]} h5 {[%clk 0:01:22]} 22. e4 {[%clk 0:02:46]} dxe4 {[%clk 0:01:09]} 23. fxe4 {[%clk 0:02:45]} Bg4 {[%clk 0:01:07]} 24. Qd3 {[%clk 0:02:30]} h4 {[%clk 0:01:01]} 25. Bf2 {[%clk 0:02:16]} e5 {[%clk 0:00:28]} 26. d5 {[%clk 0:02:08]} Kg7 {[%clk 0:00:19]} 27. h3 {[%clk 0:02:06]} Bh5 {[%clk 0:00:17]} 28. d6 {[%clk 0:02:00]} Bf8 {[%clk 0:00:11]} 29. d7 {[%clk 0:01:59]} Rd8 {[%clk 0:00:12]} 30. c6 {[%clk 0:01:41]} Bf7 {[%clk 0:00:13]}
+ 31. Qxb5 {[%clk 0:01:37]} Be6 {[%clk 0:00:02]} 32. Red1 {[%clk 0:01:36]} 1-0
+
