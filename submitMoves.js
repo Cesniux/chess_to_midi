@@ -15,4 +15,17 @@ form.addEventListener('submit', function(event) {
     };
     upperArray = moveArr.map(toUpper);
     console.log(upperArray);
+
+    //increasing the number of the octave by 1 to sync the exact octave 
+    for (var i = 0 ; i < upperArray.length; i++) {
+        var regexDigits = /\d/gm;
+        var attNum = upperArray[i].match(regexDigits);
+        //console.log(attNum);
+
+        upperArray[i] = upperArray[i].replace(regexDigits, function() {
+            return ++attNum;
+        });
+        //console.log(upperArray[i]);
+    }
+    console.log(upperArray);
 });

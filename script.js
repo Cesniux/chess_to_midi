@@ -43,5 +43,5 @@ var data = base64String.split("base64,").pop();
 
 const fs = require('fs');
 // Write the file, need to make that user can name the file in browser input
-fs.writeFileSync("C:/Cesniux/Codes/MyNodeApps/chess_to_midi/Exports/zeldaNotesTest9.mid", data, {encoding: 'base64'});
+fs.writeFileSync("C:/Cesniux/Codes/MyNodeApps/chess_to_midi/Exports/zeldaNotesTest10.mid", data, {encoding: 'base64'});
 
