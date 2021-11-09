@@ -27,7 +27,7 @@ function(event, index) {
     }
 );
 //adds sequential notes
-track.addEvent(new MidiWriter.NoteEvent({pitch: ['G9', 'G8', 'H8', 'H9'], duration: '2', velocity: 100, }),
+track.addEvent(new MidiWriter.NoteEvent({pitch: ['G9', 'G8', 'B8', 'A9', 'B9'], duration: '2', velocity: 100, }),
     function(event, index) {
         return {sequential: true};
         }
@@ -53,5 +53,5 @@ var data = base64String.split("base64,").pop();
 
 const fs = require('fs');
 // Write the file, need to make that user can name the file in browser input
-fs.writeFileSync("C:/Cesniux/Codes/MyNodeApps/chess_to_midi/Exports/zeldaNotesTest15.mid", data, {encoding: 'base64'});
+fs.writeFileSync("C:/Cesniux/Codes/MyNodeApps/chess_to_midi/Exports/zeldaNotesTest16.mid", data, {encoding: 'base64'});
 
