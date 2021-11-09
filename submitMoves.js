@@ -8,11 +8,19 @@ form.addEventListener('submit', function(event) {
     //making array of selected data from string with casteling and checkmate sign
     const moveArr = receivedData.match(/(([a-h]\d[#]?)|O-O(-O)?)/gm);
     console.log(moveArr);
+    
+    //changing every 'h' into 'b' note
+    for (var i = 0 ; i < moveArr.length; i++) {
+        moveArr[i] = moveArr[i].replace(/h/gm, 'b');
+    };
+
+    console.log(moveArr);
 
     //Making array uppercase
     toUpper = function(x){ 
         return x.toUpperCase();
     };
+
     upperArray = moveArr.map(toUpper);
     console.log(upperArray);
 
@@ -29,3 +37,6 @@ form.addEventListener('submit', function(event) {
     }
     console.log(upperArray);
 });
+
+
+var testArr = ['E2', 'B3', 'F5', 'D6', 'A4', 'O-O', ];
