@@ -39,4 +39,6 @@ form.addEventListener('submit', function(event) {
 });
 
 
-var testArr = ['E2', 'B3', 'F5', 'D6', 'A4', 'O-O', ];
+var testArr = ['E2', 'B3', 'F5', 'D6', 'A4', 'O-O', 'C6'];
+
+
