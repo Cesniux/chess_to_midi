@@ -36,9 +36,21 @@ form.addEventListener('submit', function(event) {
         //console.log(upperArray[i]);
     }
     console.log(upperArray);
+
+    const whiteMoves = [];
+    const blackMoves = [];
+    for (i = 0; i < upperArray.length; i++) {
+        if (i%2 == 0) {
+            whiteMoves.push(upperArray[i]);
+        } else {
+            blackMoves.push(upperArray[i]);
+        }
+    };
+
+    console.log(blackMoves);
+    console.log(whiteMoves);
+
 });
 
 
-var testArr = ['E2', 'B3', 'F5', 'D6', 'A4', 'O-O', 'C6'];
-
-
+//var testArr = ['E2', 'B3', 'F5', 'D6', 'A4', 'O-O', 'C6'];

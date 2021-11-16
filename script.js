@@ -6,18 +6,18 @@ var track = new MidiWriter.Track();
 // Assign an instrument to a track
 track.addEvent(new MidiWriter.ProgramChangeEvent({instrument : 1}));
 
-// track.addEvent([
-//     new MidiWriter.NoteEvent({pitch: ['E4','D4'], duration: '4'}),
-//     new MidiWriter.NoteEvent({pitch: ['C4'], duration: '2'}),
-//     new MidiWriter.NoteEvent({pitch: ['E4','D4'], duration: '4'}),
-//     new MidiWriter.NoteEvent({pitch: ['C4'], duration: '2'}),
-//     new MidiWriter.NoteEvent({pitch: ['C4', 'C4', 'C4', 'C4', 'D4', 'D4', 'D4', 'D4'], duration: '8'}),
-//     new MidiWriter.NoteEvent({pitch: ['E4','D4'], duration: '4'}),
-//     new MidiWriter.NoteEvent({pitch: ['C4'], duration: '2'})
-// ], function(event, index) {
-// return {sequential: true};
-// }
-// );
+track.addEvent([
+    new MidiWriter.NoteEvent({pitch: ['C5'], duration: '4', wait: '2'}),
+    new MidiWriter.NoteEvent({pitch: ['C4'], duration: '2'}),
+    new MidiWriter.NoteEvent({pitch: ['E4','D4'], duration: '4'}),
+    new MidiWriter.NoteEvent({pitch: ['C4'], duration: '2'}),
+    new MidiWriter.NoteEvent({pitch: ['C4', 'C4', 'C4', 'C4', 'D4', 'D4', 'D4', 'D4'], duration: '8'}),
+    new MidiWriter.NoteEvent({pitch: ['E4','D4'], duration: '4'}),
+    new MidiWriter.NoteEvent({pitch: ['C4'], duration: '2'})
+], function(event, index) {
+return {sequential: true};
+}
+);
 
 // // So these track below add up to each other sequentialy and we can split them
 //first segment puts notes simultaneously as a chord
@@ -45,28 +45,28 @@ var castlingBlackQueenS = ['C9', 'D9'];
 var sequentialVariable1 = false;
 
 // adding notes of castling White King
-function addingEvent (testArr2, i) { 
-    track.addEvent(new MidiWriter.NoteEvent({pitch: [testArr2[i]] , duration: '2', velocity:100, }),
-    function(event, index) {
-    return {sequential: false};
-    }
-    );
-};
-//addingEvent ();
-function addingEventCastleWK () { 
-    track.addEvent(new MidiWriter.NoteEvent({pitch: ['F2', 'G2'] , duration: '2', velocity:100, }),
-    function(event, index) {
-    return {sequential: false};
-    }
-    );
-};
-function addingEventCastleWQ () { 
-    track.addEvent(new MidiWriter.NoteEvent({pitch: ['C2', 'D2'] , duration: '2', velocity:100, }),
-    function(event, index) {
-    return {sequential: false};
-    }
-    );
-};
+// function addingEvent (testArr2, i) { 
+//     track.addEvent(new MidiWriter.NoteEvent({pitch: [testArr2[i]] , duration: '2', velocity:100, }),
+//     function(event, index) {
+//     return {sequential: false};
+//     }
+//     );
+// };
+// //addingEvent ();
+// function addingEventCastleWK () { 
+//     track.addEvent(new MidiWriter.NoteEvent({pitch: ['F2', 'G2'] , duration: '2', velocity:100, }),
+//     function(event, index) {
+//     return {sequential: false};
+//     }
+//     );
+// };
+// function addingEventCastleWQ () { 
+//     track.addEvent(new MidiWriter.NoteEvent({pitch: ['C2', 'D2'] , duration: '2', velocity:100, }),
+//     function(event, index) {
+//     return {sequential: false};
+//     }
+//     );
+// };
 
 
 
