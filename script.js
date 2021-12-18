@@ -75,7 +75,7 @@ function addingEventCastleWQ () {
 };
 
 
-// Automatically adds every move from White's moves array (Or now - testArr2), works fine!
+// Automatically adds EVERY move from White's moves array (Or now - testArr2), works fine!
 
 for ( let i = 0; i < testArr2.length; i++ ) {
 

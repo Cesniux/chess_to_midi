@@ -24,7 +24,7 @@ form.addEventListener('submit', function(event) {
     upperArray = moveArr.map(toUpper);
     console.log(upperArray);
 
-    //increasing the number of the octave by 1 to sync the exact octave 
+    //increasing the number of the octave by 1 to sync the exact octave to midiwriter default and Ableton default
     for (var i = 0 ; i < upperArray.length; i++) {
         var regexDigits = /\d/gm;
         var attNum = upperArray[i].match(regexDigits);
@@ -37,8 +37,12 @@ form.addEventListener('submit', function(event) {
     }
     console.log(upperArray);
 
-    const whiteMoves = [];
-    const blackMoves = [];
+
+    //Creating arrays for White and Black moves
+    let whiteMoves = [];
+    let blackMoves = [];
+
+    //Spliting main moves array to White's and Black's moves and adding them to each array.
     for (i = 0; i < upperArray.length; i++) {
         if (i%2 == 0) {
             whiteMoves.push(upperArray[i]);
@@ -47,10 +51,9 @@ form.addEventListener('submit', function(event) {
         }
     };
 
+
+    //now we have got White's moves array and Black's moves array
     console.log(blackMoves);
     console.log(whiteMoves);
-
 });
-
-
-//var testArr = ['E2', 'B3', 'F5', 'D6', 'A4', 'O-O', 'C6'];
+//Everything is working
