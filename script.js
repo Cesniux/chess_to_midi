@@ -55,7 +55,7 @@ function addingEvent (testArr2, i) {
 };
 
 
-//Adding chess White's King side Castling notes to main sequence, but these two notes are played together
+//A function for adding chess White's King side Castling notes to main sequence, but these two notes are played together
 function addingEventCastleWK () { 
     track.addEvent(new MidiWriter.NoteEvent({pitch: ['F2', 'G2'] , duration: '2', velocity:100, }),
     function(event, index) {
@@ -65,7 +65,7 @@ function addingEventCastleWK () {
 };
 
 
-//Adding chess White's Queen side Castling notes to main sequence, but these two notes are played together
+//A function for adding chess White's Queen side Castling notes to main sequence, but these two notes are played together
 function addingEventCastleWQ () { 
     track.addEvent(new MidiWriter.NoteEvent({pitch: ['C2', 'D2'] , duration: '2', velocity:100, }),
     function(event, index) {
